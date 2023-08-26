@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Great+Vibes&family=Poppins:wght@200;300&family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@200;300&family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Great+Vibes&family=Poppins:wght@200;300;500&family=Raleway:wght@700&display=swap');
+html, body {
+    margin: 0;
+    background: #E3E3E3;
+    
+}
+
+h2 {
+    align-self:flex-start;
+    font-family: 'Raleway', sans-serif;
+    color: #083A74;
+    
+}
+
+.prompt {
+    font-family: 'Poppins', sans-serif;
+    color: #083A74;
+    text-shadow: .01rem 0.05rem 0.1rem grey;
+    font-weight: 500;
+}
+
+.container {
+    /* gap: 30px; */
+    align-items: center;
+    padding: 10px 40px;
+    padding-bottom: 30px;
+    margin: auto;
+    margin-top: 150px;
+    background: white;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 0.2rem 0.3rem 0.3rem grey;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    color: grey;
+}
+
+.nav-buttons {
+    display: flex;
+    align-self: flex-end;
+    gap: 20px;
+}
+
+.navv-buttons{
+    display: flex;
+    margin-left:150px;
+    gap: 20px;
+}
+
+.last{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    /* margin-left: 80px; */
+}
+
+.file-selector {
+    padding: 10px;
+    border: 1px solid #083A74;
+    border-radius: 10px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.selector{
+    display: flex;
+}
+
+label {
+    margin: 9px;
+    /* background-color: #1967C2; */
+}
+
+.page_one_wrapper {
+    transition: opacity 0.5s ease;
+}
+
+.page_two_wrapper {
+    /* display: none; */
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+input {
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #083A74;
+    color: #1967C2;
+    padding: 5px 15px;
+}
+
+.fields {
+    display: flex;
+}
+
+.field{
+    display: flex;
+}
+
+.tag {
+    background-color: #1967C2;
+}
+
+.head{
+    text-align: center;
+    color: #083A74;
+    font-size: 35px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+}
+
+.tickLogo{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 180px;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid #14EF44;
+    border-radius: 50%;
+    width: fit-content;
+    margin-bottom: 30px;
+    font-size: xx-large;
+}
+
+button {
+    
+    outline: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 120px;
+    border: none;
+    color: white;
+    background-color: #1968c293;
+}
+
+
+button:hover {
+    background-color: #1967C2;
+}
+
